@@ -1,5 +1,3 @@
-
-
 public class Employee {
     String name;
     double age;
@@ -16,9 +14,9 @@ public class Employee {
     }
 
     void raiseSalary(){
-        if(this.title == Title.QA && salary <= 36.000){
-            this.salary = salary + 2.500;
-            System.out.println("The employee " + this.name+ " will get the raise salary");
+        if(this.title == Title.QA && salary <= 30.000){
+            this.salary = salary + (salary * 1.2);
+            System.out.println("The employee " + this.name+ "'s salary will raise as " + this.salary + " TL");
         }
     }
 }

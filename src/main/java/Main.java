@@ -7,6 +7,10 @@ public class Main {
         Employee employeeJohn = new Employee("John", 30, 30.000, Title.QA, Location.ISTANBUL);
         Employee employeeKatie = new Employee("Katie", 32, 35.000, Title.QA, Location.ISTANBUL);
 
+        System.out.println("John's Salary is " + employeeJohn.salary);
+        System.out.println("Katie's Salary is " + employeeKatie.salary);
+
+
         employeeJohn.raiseSalary();
         employeeKatie.raiseSalary();
     }
