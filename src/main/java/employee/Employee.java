@@ -1,3 +1,5 @@
+package employee;
+
 public class Employee {
     String name;
     double age;

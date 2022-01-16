@@ -1,3 +1,5 @@
+package tree;
+
 public enum TreeType {
     OAK,
     MAPLE,
