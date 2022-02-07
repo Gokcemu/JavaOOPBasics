@@ -1,2 +1,6 @@
-package events;public interface Event {
+package events;
+
+public interface Event {
+    Long getTimeStamp();
+    void process();
 }
